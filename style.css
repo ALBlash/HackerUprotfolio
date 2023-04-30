@@ -88,21 +88,25 @@
         display: flex;
         gap: 10px;
     }
-    .little{
+    .info{
         display: flex;
         justify-content: center;
         margin-top: 40px;
         margin-bottom: 25px;
     }
     
-    .pro{
+    .img-pro{
         max-width: 300px;
         margin-right: 140px;
     }
-    .per{
+    .about-me{
         margin-right: 65px;
         margin-left: 65px;
     }
+
+
+
+
     .download{
         border: 1px solid black;
         font-family: sans-serif;
@@ -113,16 +117,8 @@
         background-color: #2f2e2e;
         flex-direction: column;
     }
-    .res{
-        margin-top: 30px;
-    }
-    /*
-    .pdfii{
-        display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    }*/
-    .pdfii {
+    
+    .pdfi{
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -130,14 +126,15 @@
         transform: translatey(80px) translateX(60px);
       }
       
-      
-    
-    
-    .pdfi{
+    .pdfii{
         width: 45px;
         transform: skew(34deg, 325deg);
         display: flex;
         fill: aqua;
+    }
+
+    .download-resume{
+        margin-top: 30px;
     }
     
     .pdf{
@@ -160,20 +157,14 @@
     font-family: sans-serif;
     margin-top: 50px;
 }
-    .containerr{
+    .container-2{
         display: flex;
         flex-direction: row;
         gap: 30px;
         margin-top: 70px;
         justify-content: center;
     }
-    .containerrr{
-        display: flex;
-        flex-direction: row;
-        gap: 30px;
-        margin-top: 70px;
-        justify-content: center;
-    }
+   
     .child{
         border-radius: 15px;
         border: 1px solid none;
@@ -181,7 +172,7 @@
         width: 270px;
         margin-bottom: 20px;
     }
-    .imggg{
+    #imggg{
         width: 258px;
         min-width: 100%;
         border-radius: 15px;
@@ -195,7 +186,7 @@
         display: flex;
         justify-content: center;
     }
-    .ppp{
+    .project-paragraph{
         line-height: 1.5;
         text-align: center;
     }
@@ -212,8 +203,7 @@
     #bottom{
         margin-bottom: 7px;
     }
-    .container4{
-        margin-top: 100px;
+    .container-3{
         background-image: url(./images/bg.jpeg);
         background-color: #B3F3F7;
         background-blend-mode: multiply;
@@ -226,6 +216,7 @@
         font-weight: bold;
         font-size: 2rem;
         margin-top: 25px;
+        font-family: sans-serif;
     }
     input{
         border: none;
@@ -240,7 +231,7 @@
         height: 45px;
         border-bottom:2px solid #2f2e2e;
     }
-    .down{
+    .lorem-p{
         margin-bottom: 35px;
     }
     .Bbutton{
@@ -254,16 +245,13 @@
 }
     
     
-    .container5{
+    .info-control{
         background-color: #2f2e2e;
         color: white;
         display: flex;
         flex-wrap: wrap;
-        /* gap: 140px; */
         justify-content: center;
         height: 180px;
-        /* padding-top: 30px; */
-        /* padding-bottom: 60px; */
         align-content: center;
     }
     .conte1{
@@ -288,9 +276,7 @@
     .row2{
         display: flex;
     }
-    .row3{
-        display: flex;
-    }
+   
     #location{
         margin-right: 20px;
     }
@@ -387,15 +373,15 @@
     gap: 15px;
     margin-bottom: 10px;
 }
-.little{
+.info{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.pro{
+.img-pro{
     max-width: 350px;
 }
-.per{
+.about-me{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -403,7 +389,7 @@
 h2{
     font-family: sans-serif;
 }
-.box8 {
+.lorem {
     box-sizing: border-box;
     padding: 10px;
     width: 100%;
@@ -411,16 +397,13 @@ h2{
     text-align: center;
   }
   
-  .box8 p {
+  .lorem p {
     margin: 0;
   }
-  .pdfi{
-    max-width: 40px;
-    transform: skew(34deg, 325deg);
-    display: flex;
 
-}
-.download{
+
+
+  .download{
     
     font-family: sans-serif;
     display: flex;
@@ -430,26 +413,38 @@ h2{
     background-color: #2f2e2e;
     flex-direction: column;
 }
-.res{
-    margin-top: 30px;
-}
-
-.pdfii {
+.pdfi{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-left: -157px;
     transform: translatey(80px) translateX(80px);
   }
-  
 
-    
-.pdfi{
+
+.pdfii{
     width: 45px;
     transform: skew(34deg, 325deg);
     display: flex;
     fill: aqua;
 }
+    
+
+.pdf{
+    margin-bottom: 35px;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: #1ae0ec;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.download-resume{
+    margin-top: 30px;
+}
+
     
 
 .pdf{
@@ -468,20 +463,22 @@ h2{
 }
 
 
-.containerr{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin-top: 70px;
-    justify-content: center;
-}
+
 .h2{
     text-align: center;
     font-family: sans-serif;
     margin-top: 30px;
     margin-bottom: -50px;
 }
-.s700{
+.container-2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.project-control{
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -490,13 +487,7 @@ h2{
     margin-bottom: 40px;
 }
 
-.containerrr{
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    margin-top: 70px;
-    justify-content: center;
-}
+
 .child{
     border-radius: 15px;
     border: 1px solid none;
@@ -504,7 +495,7 @@ h2{
     width: 270px;
     margin-bottom: -45px;
 }
-.imggg{
+#imggg{
     width: 258px;
     min-width: 100%;
     border-radius: 15px;
@@ -518,8 +509,7 @@ h3{
     display: flex;
     justify-content: center;
 }
-.ppp{
-    font-weight: bold;
+.project-paragraph{
     line-height: 1.5;
     text-align: center;
 }
@@ -534,8 +524,7 @@ h3{
     cursor: pointer;
 }
 
-.container4{
-    margin-top: 100px;
+.container-3{
     background-image: url(./images/bg.jpeg);
     background-color: #B3F3F7;
     background-blend-mode: multiply;
@@ -562,7 +551,7 @@ input{
     height: 45px;
     border-bottom:2px solid #2f2e2e;
 }
-.down{
+.lorem-p{
     margin-bottom: 35px;
 }
 .Bbutton{
@@ -576,25 +565,11 @@ input{
     margin-bottom:6px;
 }
 
-/*
-.container5{
+
+.info-control{
     background-color: #2f2e2e;
     color: white;
-    display: flex;
-    flex-wrap: wrap;
-    gap: -40px;
-    padding-top: 30px;
-    padding-bottom: 60px;
-    justify-content: space-evenly;
-}*/
-.container5{
-    background-color: #2f2e2e;
-    color: white;
-    /* display: flex; */
-    /* gap: 140px; */
     height: 280px;
-    /* padding-top: 30px; */
-    /* padding-bottom: 60px;*/
 }
 
 .face{
@@ -625,11 +600,7 @@ input{
     display: flex;
     flex-direction: column;
 }
-.row3{
-    display: flex;
-    flex-direction: column;
-    
-}
+
 
 
 }
@@ -702,32 +673,34 @@ h1{
     margin: 5px;
 }
 
-.proo{
+.set-img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.pro{
+.img-pro{
     max-width: 300px;
 }
+.about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h2{
     display: flex;
     justify-content: center;
     font-family: sans-serif;
 }
-.per{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.box8 {
+
+.lorem {
     box-sizing: border-box;
     width: 100%;
     max-width: 600px;
     text-align: center;
   }
   
-  .box8 p {
+  .lorem p {
     margin: 0;
   }
 
@@ -750,7 +723,7 @@ h2{
     color: white;
   }
 
-  .pdfi{
+  .pdfii{
     width: 50px;
     max-width: 100%;
     display: flex;
@@ -760,7 +733,7 @@ h2{
     fill: aqua;
     
   }
-  .pdfii{
+  .pdfi{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -779,7 +752,7 @@ h2{
 
 
 
-  .butt{
+  .download-button{
     display: flex;
     justify-content: center;
   }
@@ -818,7 +791,7 @@ h2{
     width: 270px;
     margin-bottom: -45px;
 }
-.imggg{
+#imggg{
     width: 258px;
     min-width: 100%;
     border-radius: 15px;
@@ -832,8 +805,7 @@ h3{
     display: flex;
     justify-content: center;
 }
-.ppp{
-    font-weight: bold;
+.project-paragraph{
     line-height: 1.5;
     text-align: center;
 }
@@ -847,12 +819,12 @@ h3{
     background-color: #1ae0ec;
     cursor: pointer;
 }
-.s700{
+.project-control{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-  .box9{
+  .project-space{
     margin-bottom: 70px;
 
   }
@@ -862,15 +834,22 @@ h3{
 
 
 
-  .container4{
-    margin-top: 100px;
+  .container-3{
     background-image: url(./images/bg.jpeg);
     background-color: #B3F3F7;
     background-blend-mode: multiply;
     display: flex;
-    margin-top: 100px;
+    margin-top: 40px;
     flex-direction: column;
     align-items: center;
+}
+.contact-us{
+    font-size: 2rem;
+    margin-top: 25px;
+    font-weight: bold;
+}
+.lorem-p{
+    text-align: center;
 }
 input{
     border: none;
@@ -897,7 +876,7 @@ input{
 
 /*more details*/
 
-.container5{
+.info-control{
     background-color: #2f2e2e;
     color: white;
     height: 320px;
@@ -905,6 +884,7 @@ input{
 .conte1{
    display: flex;
    flex-direction: column;
+   gap: 5px;
 }
 .row1{
     margin-top: 30px;
@@ -915,10 +895,7 @@ input{
     display: flex;
     justify-content: center;
 }
-.row3{
-    display: flex;
-    justify-content: center;
-}
+
 
 }
 
@@ -1015,7 +992,7 @@ h1{
     align-items: center;
     
 }
-.pro{
+.img-pro{
     max-width: 290px;
     
   
@@ -1024,7 +1001,7 @@ h2{
     font-family: sans-serif;
     text-align: center;
 }
-.box8{
+.lorem{
     text-align: center;
 }
 
@@ -1033,14 +1010,14 @@ h2{
 
 .download{
     border: 1px solid black;
-    height: 350px;
-    margin-top:70px;
-    margin-bottom: 100px;
+    height: 380px;
+    margin-top: 70px;
+    margin-bottom: 90px;
     background-color: #2f2e2e;
     color: white;
   }
 
-  .pdfi{
+  .pdfii{
     width: 50px;
     max-width: 100%;
     display: flex;
@@ -1050,7 +1027,7 @@ h2{
     fill: aqua;
     
   }
-  .pdfii{
+  .pdfi{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -1059,7 +1036,7 @@ h2{
   .center{
     text-align: center;
   }
-  .butt{
+  .download-button{
     display: flex;
     justify-content: center;
   }
@@ -1095,7 +1072,7 @@ h2{
     width: 270px;
     margin-bottom: -45px;
 }
-.imggg{
+#imggg{
     width: 258px;
     min-width: 100%;
     border-radius: 15px;
@@ -1109,8 +1086,7 @@ h3{
     display: flex;
     justify-content: center;
 }
-.ppp{
-    font-weight: bold;
+.project-paragraph{
     line-height: 1.5;
     text-align: center;
 }
@@ -1124,18 +1100,18 @@ h3{
     background-color: #1ae0ec;
     cursor: pointer;
 }
-.s700{
+.project-control{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-  .box9{
+  .project-space{
     margin-bottom: 70px;
 
   }
 
   /*contact us!*/
-  .container4{
+  .container-3{
     margin-top: 100px;
   background-image: url(./images/bg.jpeg);
   background-color: #B3F3F7;
@@ -1145,7 +1121,7 @@ h3{
   flex-direction: column;
   align-items: center;
   }
-  .down{
+  .lorem-p{
     text-align: center;
   }
   h2{
@@ -1181,7 +1157,7 @@ input{
 
 /*more details*/
 
-.container5{
+.info-control{
     background-color: #2f2e2e;
     color: white;
     height: 320px;
@@ -1200,10 +1176,6 @@ input{
     display: flex;
     justify-content: center;
    
-}
-.row3{
-    display: flex;
-    justify-content: center;
 }
 
     
