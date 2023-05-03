@@ -216,7 +216,7 @@ html {
     }
 
     h3 {
-        font-family: 'Delicious Handrawn';
+        font-family: 'Rubik', sans-serif;
         display: flex;
         justify-content: center;
     }
@@ -417,7 +417,7 @@ html {
         position: absolute;
         gap: 20px;
         left: 35px;
-        top: 15px;
+        top: 5px;
         flex-direction: row;
         align-items: flex-end;
     }
@@ -613,7 +613,7 @@ html {
     }
 
     h3 {
-        font-family: 'Delicious Handrawn';
+        font-family: 'Rubik', sans-serif;
         display: flex;
         justify-content: center;
     }
@@ -982,7 +982,7 @@ html {
     }
 
     h3 {
-        font-family: 'Delicious Handrawn';
+        font-family: 'Rubik', sans-serif;
         display: flex;
         justify-content: center;
     }
@@ -1171,7 +1171,7 @@ html {
         align-items: flex-end;
         position: absolute;
         left: 0;
-        top: 15px;
+        top: 5px;
         margin-left: 10px;
         gap: 10px;
     }
@@ -1335,7 +1335,7 @@ html {
     }
 
     h3 {
-        font-family: 'Delicious Handrawn';
+        font-family: 'Rubik', sans-serif;
         display: flex;
         justify-content: center;
     }
