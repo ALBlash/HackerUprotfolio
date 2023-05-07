@@ -10,6 +10,8 @@ html {
         background-color: rgb(237, 231, 231);
     }
 
+    /*Header*/
+
     .navbar {
         background-color: rgb(237, 231, 231, 55%) !important;
         line-height: none !important;
@@ -48,6 +50,7 @@ html {
         text-decoration: none;
     }
 
+    /*small-profile-left-navbar */
     .img {
 
         width: 50px;
@@ -55,11 +58,7 @@ html {
         border-radius: 50%;
     }
 
-    h1 {
-        font-size: 2.5rem;
-        font-family: sans-serif;
-        font-weight: bold;
-    }
+
 
     #ari {
         font-family: 'Delicious Handrawn', cursive;
@@ -76,8 +75,10 @@ html {
         left: 0;
         top: 5px;
         margin-left: 110px;
-        /* flex-direction: row;*/
+
     }
+
+    /*תיק עבודות אישי*/
 
     .container {
         position: relative;
@@ -94,6 +95,12 @@ html {
 
     }
 
+    h1 {
+        font-size: 2.5rem;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
     .hil {
         display: flex;
         flex-wrap: wrap;
@@ -101,12 +108,13 @@ html {
         text-align: center;
     }
 
+    /*small-picture*/
+
     .images {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-        /*border: 2px solid black;*/
         gap: 10px;
     }
 
@@ -114,6 +122,8 @@ html {
         display: flex;
         gap: 10px;
     }
+
+    /*קורות חיים*/
 
     .info {
         display: flex;
@@ -133,7 +143,7 @@ html {
     }
 
 
-
+    /*download-pdf*/
 
     .download {
         border: 1px solid black;
@@ -182,6 +192,9 @@ html {
         margin-right: 10px;
     }
 
+
+    /*projects*/
+
     .h2 {
         text-align: center;
         font-family: sans-serif;
@@ -193,6 +206,12 @@ html {
         flex-direction: row;
         gap: 30px;
         margin-top: 70px;
+        justify-content: center;
+    }
+
+    h3 {
+        font-family: 'Rubik', sans-serif;
+        display: flex;
         justify-content: center;
     }
 
@@ -215,11 +234,7 @@ html {
         border-radius: 15px;
     }
 
-    h3 {
-        font-family: 'Rubik', sans-serif;
-        display: flex;
-        justify-content: center;
-    }
+
 
     .project-paragraph {
         line-height: 1.5;
@@ -253,6 +268,8 @@ html {
         margin-right: 0;
     }
 
+    /*form*/
+
     .container-3 {
         background-image: url(./images/bg.jpeg);
         background-color: #B3F3F7;
@@ -270,6 +287,10 @@ html {
         font-family: sans-serif;
     }
 
+    .lorem-p {
+        margin-bottom: 35px;
+    }
+
     input {
         border: none;
         padding: 5px;
@@ -285,9 +306,7 @@ html {
         border-bottom: 2px solid #2f2e2e;
     }
 
-    .lorem-p {
-        margin-bottom: 35px;
-    }
+
 
     .Bbutton {
         padding: 5px 20px;
@@ -300,6 +319,8 @@ html {
 
 
 
+
+    /*information*/
     .info-control {
         background-color: #2f2e2e;
         color: white;
@@ -368,6 +389,7 @@ html {
         flex-wrap: wrap;
     }
 
+    /*Header*/
     .navbar {
         background-color: rgb(237, 231, 231, 55%) !important;
         margin-right: 0;
@@ -408,9 +430,8 @@ html {
         border-radius: 50%;
     }
 
-    .left1 {
-        position: relative;
-    }
+    /*small-profile-left*/
+
 
     #left {
         display: flex;
@@ -426,12 +447,8 @@ html {
         font-family: 'Delicious Handrawn', cursive;
     }
 
-    h1 {
-        font-size: 40px;
-        font-family: sans-serif;
-        font-weight: bold;
-    }
 
+    /*תיק עבודות אישי*/
     .container {
         position: relative;
         background-image: url(./images/bg.jpeg);
@@ -446,6 +463,12 @@ html {
         min-width: 100%;
     }
 
+    h1 {
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
     .hil {
         display: flex;
         flex-wrap: wrap;
@@ -454,12 +477,13 @@ html {
 
     }
 
+    /*small-pictures*/
+
     .images {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-        /*border: 2px solid black;*/
         gap: 10px;
     }
 
@@ -470,6 +494,8 @@ html {
         gap: 15px;
         margin-bottom: 10px;
     }
+
+    /*קורות חיים*/
 
     .info {
         display: flex;
@@ -499,12 +525,10 @@ html {
         text-align: center;
     }
 
-    .lorem p {
-        margin: 0;
-    }
 
 
 
+    /*download-pdf*/
     .download {
 
         font-family: sans-serif;
@@ -665,6 +689,10 @@ html {
         font-size: 2rem;
         margin-top: 25px;
         font-weight: bold;
+    }
+
+    .lorem p {
+        margin: 0;
     }
 
     input {
